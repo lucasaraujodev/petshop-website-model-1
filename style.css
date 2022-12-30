@@ -6,11 +6,11 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
+    margin:0; 
+    padding:0;
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .3s cubic-bezier(.38,1.15,.7,1.12);
 }
 
@@ -210,6 +210,7 @@ header.sticky{
 
 .category .box-container{
     display: flex;
+    text-transform: capitalize;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
